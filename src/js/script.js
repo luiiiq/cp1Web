@@ -23,3 +23,20 @@ if (primeiroResultado >= segundoResultado) {
 } else {
     console.log(`${primeiroResultado} não é maior ou igual à ${segundoResultado}`);
 }
+
+console.log("******************************");
+console.log("Exercício 2");
+console.log("******************************");
+
+let peso = 75;
+let altura = 1.67;
+let imc = peso / (altura ** 2);
+
+console.log(`IMC: ${imc.toFixed(2)}`);
+if (imc < 18.5) {
+    console.log("Você está abaixo do peso");
+} else if ( imc >= 18.5 && imc <= 24.9) {
+    console.log("Você está no peso ideal");
+} else {
+    console.log("Você está acima do peso");
+};
