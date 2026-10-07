@@ -57,3 +57,14 @@ let herois = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
 for (let i = 0; i <= herois.length; i++) {
     console.log(herois[i]);
 }
+
+console.log("******************************");
+console.log("Exercício 5");
+console.log("******************************");
+
+console.log("PERMISSÃO PARA DIRIGIR:")
+
+let idade = 17;
+console.log(`Idade: ${idade}`);
+let permissao = idade >= 18 ? "Tem permissão para dirigir" : "Não tem permissão para dirigir!";
+console.log(permissao);
