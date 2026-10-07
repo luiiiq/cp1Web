@@ -40,3 +40,11 @@ if (imc < 18.5) {
 } else {
     console.log("Você está acima do peso");
 };
+
+console.log("******************************");
+console.log("Exercício 3");
+console.log("******************************");
+
+for(let num = 0; num <= 10; num++) {
+    console.log(` o valor da contagem é: ${num}!`)
+}
