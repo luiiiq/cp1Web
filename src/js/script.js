@@ -48,3 +48,12 @@ console.log("******************************");
 for(let num = 0; num <= 10; num++) {
     console.log(` o valor da contagem é: ${num}!`)
 }
+
+console.log("******************************");
+console.log("Exercício 4");
+console.log("******************************");
+
+let herois = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
+for (let i = 0; i <= herois.length; i++) {
+    console.log(herois[i]);
+}
