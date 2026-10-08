@@ -111,3 +111,16 @@ console.log("******************************");
 
 let nome = prompt("Digite seu nome:");
 console.log(`Olá dev ${nome}`);
+
+console.log("******************************");
+console.log("Exercício 9");
+console.log("******************************");
+
+let senhaAtual = "1234";
+let novaSenha = prompt("Digite uma nova senha:");
+
+if (novaSenha === senhaAtual) {
+    console.log("Digte uma senha diferente!");
+} else {
+    console.log("Nova senha cadastrada!");
+}
