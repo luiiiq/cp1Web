@@ -124,3 +124,14 @@ if (novaSenha === senhaAtual) {
 } else {
     console.log("Nova senha cadastrada!");
 }
+
+console.log("******************************");
+console.log("Exercício 10");
+console.log("******************************");
+
+console.log("SISTEMA DE DESCONTOS");
+
+let valorProduto = 2000;
+let valorDesconto = 10 / 100;
+let valorFinal = valorProduto - (valorDesconto * valorProduto);
+console.log(`Valor final: R$ ${valorFinal.toFixed(2)}`);
