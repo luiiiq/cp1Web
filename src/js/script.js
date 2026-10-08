@@ -104,3 +104,10 @@ if (media < 6) {
 } else {
     console.log("Aprovado");
 }
+
+console.log("******************************");
+console.log("Exercício 8");
+console.log("******************************");
+
+let nome = prompt("Digite seu nome:");
+console.log(`Olá dev ${nome}`);
