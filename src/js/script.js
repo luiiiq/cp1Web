@@ -84,3 +84,23 @@ if (usuarioSolicitado === usuario && senhaSolicitada === senha) {
 } else {
     console.log("Falha de autenticação");
 }
+
+console.log("******************************");
+console.log("Exercício 7");
+console.log("******************************");
+
+let notas = [10,7,6,9,3,1,5];
+let soma = 0;
+
+for(let i = 0; i < notas.length; i++) {
+    soma += notas[i];
+}
+
+let media = soma / 7;
+console.log(`Média ${media.toFixed(2)}`);
+
+if (media < 6) {
+    console.log("Reprovado");
+} else {
+    console.log("Aprovado");
+}
