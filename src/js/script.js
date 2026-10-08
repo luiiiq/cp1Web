@@ -120,7 +120,7 @@ let senhaAtual = "1234";
 let novaSenha = prompt("Digite uma nova senha:");
 
 if (novaSenha === senhaAtual) {
-    console.log("Digte uma senha diferente!");
+    console.log("Digite uma senha diferente!");
 } else {
     console.log("Nova senha cadastrada!");
 }
